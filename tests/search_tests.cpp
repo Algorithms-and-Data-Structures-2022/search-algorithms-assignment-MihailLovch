@@ -18,7 +18,7 @@ using namespace assignment;
 
 constexpr int kMaxDataSize = 25;
 
-TEMPLATE_TEST_CASE("Search", "", LinearSearchIterative, LinearSearchRecursive, LinearSearchTwoPointers, BinarySearchIterative,
+TEMPLATE_TEST_CASE("Search", "", LinearSearchIterative, LinearSearchRecursive, LinearSearchTwoPointers,
                    BinarySearchRecursive) {
 
   const int size = GENERATE(range(0, kMaxDataSize));
