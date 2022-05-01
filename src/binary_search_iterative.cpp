@@ -21,8 +21,9 @@ namespace assignment {
       }
       if (search_elem < arr[medium]){
         lastIndex = medium-1;
+      }else {
+        firstIndex = medium + 1;
       }
-      firstIndex = medium+1;
     }
     return std::nullopt;
   }
